@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphicsh.Mvm", "Alphicsh.Mvm\Alphicsh.Mvm.csproj", "{FD92B3F7-2F51-4F63-A12C-8886BC047C9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphicsh.Mvm.Playground", "Alphicsh.Mvm.Playground\Alphicsh.Mvm.Playground.csproj", "{97CC8AB8-AB47-45AE-8AD2-589D34EFF44E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FD92B3F7-2F51-4F63-A12C-8886BC047C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD92B3F7-2F51-4F63-A12C-8886BC047C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD92B3F7-2F51-4F63-A12C-8886BC047C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CC8AB8-AB47-45AE-8AD2-589D34EFF44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CC8AB8-AB47-45AE-8AD2-589D34EFF44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CC8AB8-AB47-45AE-8AD2-589D34EFF44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CC8AB8-AB47-45AE-8AD2-589D34EFF44E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

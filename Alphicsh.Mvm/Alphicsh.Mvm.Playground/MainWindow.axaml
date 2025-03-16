@@ -11,16 +11,20 @@
   >
   
   <Grid RowDefinitions="1*, 1*">
-    <TextBox
+    <WrapPanel
       Grid.Row="0"
-      HorizontalAlignment="Center" VerticalAlignment="Center" Width="320"
-      Text="{Binding Top.TopText}"
-      />
+      HorizontalAlignment="Center" VerticalAlignment="Center"
+      >
+      <TextBox Width="320" Text="{Binding Top.TopText}" />
+      <Button Width="120" Command="{Binding Top.UppercaseText}" HorizontalContentAlignment="Center">Uppercase</Button>
+    </WrapPanel>
 
-    <TextBox
+    <WrapPanel
       Grid.Row="1"
       HorizontalAlignment="Center" VerticalAlignment="Center" Width="320"
-      Text="{Binding Bottom.BottomText}"
-      />
+      >
+      <TextBox Width="320" Text="{Binding Bottom.BottomText}"/>
+      <CheckBox IsChecked="{Binding Bottom.UppercaseAvailable}">Uppercase available</CheckBox>
+    </WrapPanel>
   </Grid>
 </Window>
